@@ -27,8 +27,8 @@ param hubVnetResourceId string
 param location string
 
 // A designator that represents a business unit id and application id
-var orgAppId = 'BU0001A0008'
-var clusterVNetName = 'vnet-spoke-${orgAppId}-00'
+var orgAppId = 'QAP01'
+var clusterVNetName = 'vnet-${orgAppId}-00'
 
 /*** EXISTING HUB RESOURCES ***/
 
